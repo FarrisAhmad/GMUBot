@@ -4,3 +4,6 @@ pip install better_profanity
 
 Then, to run the code, run the command
 python bot.py
+
+
+There are two unit tests, that are the files apitest.py and filtertest.py
