@@ -9,4 +9,4 @@ This is a program designed to receive and output user submitted information abou
 
 Due to the current pandemic, we couldn't find easily accessible data to work with, so we focused on creating an easily expandable system that can be easily adjusted to refine both the heuristic classes information (defining a parking lots base level of fullness), and the parser's keywords its searching for.
 
-There are two unit tests, that are the files apitest.py and filtertest.py
+There are five unit tests. The two for interfacing with tweepy, are the files apitest.py and filtertest.py, and three for the data structure used by this program, which are heuristicFormationTest.py, lotStorageTest.py, and lotTrendRestoreTest.py
