@@ -1,5 +1,21 @@
 import tweepy
 from better_profanity import profanity
+from lotStructure import *
+
+#Define Structure of mason lots that we will monitor
+masonLots=LotList()
+masonLots.appendLot("A")
+masonLots.appendLot("L")
+masonLots.appendLot("C")
+masonLots.appendLot("K")
+masonLots.appendLot("PV")
+masonLots.appendLot("M")
+masonLots.appendLot("O")
+masonLots.appendLot("P")
+
+#To build string with all lots, call masonLots.buildUpdateMessage()
+# Specify select lots by passing a list of strings as a parameter ie: masonLots.buildUpdateMessage(["a", "PV"])
+
 #Listener class
 class MyStreamListener(tweepy.StreamListener):
     def on_status(self, status):
